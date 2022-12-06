@@ -1,0 +1,101 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "snorlax_lowpoly_flowalistik",
+            "scale" : [
+                0.009473247453570366,
+                0.009473247453570366,
+                0.009473247453570366
+            ],
+            "translation" : [
+                -0.896772027015686,
+                0.02486683800816536,
+                0.014818580821156502
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "snorlax_lowpoly_flowalistik",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 688128,
+            "max" : [
+                136.31137084960938,
+                71.6124267578125,
+                33.6619873046875
+            ],
+            "min" : [
+                56.724632263183594,
+                0.0010986328125,
+                -31.794200897216797
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 688128,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5125,
+            "count" : 688128,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 8257536,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8257536,
+            "byteOffset" : 8257536,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2752512,
+            "byteOffset" : 16515072,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 19267584,
+            "uri" : "snorlax.bin"
+        }
+    ]
+}
