@@ -15,22 +15,22 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "path177",
+            "name" : "Curve",
             "rotation" : [
-                -0.012135224416851997,
-                0.01920442096889019,
-                -0.007420159876346588,
-                0.9997144341468811
+                0.7078633308410645,
+                -0.01255410723388195,
+                0.006068957969546318,
+                0.7062118053436279
             ],
             "scale" : [
-                5,
+                3,
                 1,
-                5
+                3.000000238418579
             ],
             "translation" : [
-                1.0378447771072388,
-                0.27681320905685425,
-                1.0692919492721558
+                0.013859625905752182,
+                -0.017474336549639702,
+                0.00413547083735466
             ]
         }
     ],
@@ -52,7 +52,7 @@
     ],
     "meshes" : [
         {
-            "name" : "path177",
+            "name" : "Curve",
             "primitives" : [
                 {
                     "attributes" : {
@@ -70,67 +70,67 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 1308782,
+            "count" : 1286405,
             "max" : [
-                0.2119804471731186,
-                0.6296808123588562,
-                0.3308010995388031
+                0.18431736528873444,
+                0.21669815480709076,
+                0
             ],
             "min" : [
-                -0.2059992104768753,
-                -0.31506669521331787,
-                -0.2562502324581146
+                0,
+                0,
+                -0.2593212127685547
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 1308782,
+            "count" : 1286405,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 1308782,
+            "count" : 1286405,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5125,
-            "count" : 1994484,
+            "count" : 1759896,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 15705384,
+            "byteLength" : 15436860,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 15705384,
-            "byteOffset" : 15705384,
+            "byteLength" : 15436860,
+            "byteOffset" : 15436860,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 10470256,
-            "byteOffset" : 31410768,
+            "byteLength" : 10291240,
+            "byteOffset" : 30873720,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 7977936,
-            "byteOffset" : 41881024,
+            "byteLength" : 7039584,
+            "byteOffset" : 41164960,
             "target" : 34963
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 49858960,
+            "byteLength" : 48204544,
             "uri" : "Teste_cartaz.bin"
         }
     ]
