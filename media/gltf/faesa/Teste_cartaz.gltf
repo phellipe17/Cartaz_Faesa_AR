@@ -8,75 +8,76 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0
+                0,
+                1,
+                2,
+                3
             ]
         }
     ],
     "nodes" : [
         {
+            "name" : "Camera.001",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.481131553649902,
+                5.34366512298584,
+                6.5076398849487305
+            ]
+        },
+        {
+            "name" : "Lamp",
+            "rotation" : [
+                0.16907553374767303,
+                0.7558805346488953,
+                -0.27217110991477966,
+                0.5709474682807922
+            ],
+            "translation" : [
+                0,
+                1.600000023841858,
+                0
+            ]
+        },
+        {
+            "name" : "Light.002",
+            "rotation" : [
+                0.16907578706741333,
+                0.7558804750442505,
+                -0.2721714377403259,
+                0.5709473490715027
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
             "mesh" : 0,
             "name" : "Curve",
             "rotation" : [
-                0.7105112671852112,
+                0.710511326789856,
                 0,
                 0,
-                0.7036858797073364
+                0.7036857604980469
             ],
             "scale" : [
-                3.4987223148345947,
-                3.4987215995788574,
-                3.4987215995788574
-            ]
-        }
-    ],
-    "animations" : [
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "rotation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "scale"
-                    }
-                }
-            ],
-            "name" : "Curve",
-            "samplers" : [
-                {
-                    "input" : 4,
-                    "interpolation" : "LINEAR",
-                    "output" : 5
-                },
-                {
-                    "input" : 4,
-                    "interpolation" : "LINEAR",
-                    "output" : 6
-                },
-                {
-                    "input" : 4,
-                    "interpolation" : "LINEAR",
-                    "output" : 7
-                }
+                3.535848617553711,
+                3.5358479022979736,
+                3.5358479022979736
             ]
         }
     ],
     "materials" : [
         {
-            "name" : "Materialfaesa",
+            "doubleSided" : true,
+            "name" : "Material.001",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -119,7 +120,7 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 1106422,
+            "count" : 1268565,
             "max" : [
                 0.18431736528873444,
                 0.04684370756149292,
@@ -135,13 +136,13 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 1106422,
+            "count" : 1268565,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 1106422,
+            "count" : 1268565,
             "type" : "VEC2"
         },
         {
@@ -149,82 +150,32 @@
             "componentType" : 5125,
             "count" : 1759896,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 2,
-            "max" : [
-                0.041666666666666664
-            ],
-            "min" : [
-                0
-            ],
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 7,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC3"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13277064,
+            "byteLength" : 15222780,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 13277064,
-            "byteOffset" : 13277064,
+            "byteLength" : 15222780,
+            "byteOffset" : 15222780,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 8851376,
-            "byteOffset" : 26554128,
+            "byteLength" : 10148520,
+            "byteOffset" : 30445560,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 7039584,
-            "byteOffset" : 35405504,
+            "byteOffset" : 40594080,
             "target" : 34963
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 8,
-            "byteOffset" : 42445088
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 42445096
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 42445120
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 42445152
         }
     ],
     "samplers" : [
@@ -237,7 +188,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 42445176,
+            "byteLength" : 47633664,
             "uri" : "Teste_cartaz.bin"
         }
     ]
